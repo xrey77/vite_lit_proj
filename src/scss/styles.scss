@@ -1,0 +1,67 @@
+@import "bootstrap/scss/bootstrap";
+
+.carousel-inner .carousel-item img {
+    height: auto;
+    width: auto;
+    max-width: 100% !important;
+    max-height: 620px !important;
+  }
+  
+  #offcanvasMenu {
+    width: 60% !important;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-radius: 60% !important;
+    cursor: pointer;
+    background-color: #fefafa;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.9;
+    transition: opacity .6s ease;
+  }
+  
+  .emboss-menu {
+    margin-top: 0;
+    color: rgb(255 0 0 / 80%);
+    text-shadow: 1px 2px 0 #EEE, 0 0 0 #000, 1px 2px 0 #EEE;  
+  }
+  
+  .usr {
+    width: 100px;
+    height: 100px;
+  }
+
+  .x-height {
+    height: 600px !important;    
+  }
+
+  .cb-border {
+    border-width: 2px !important;
+    border-radius: 50% !important;
+    border-color: silver !important;
+  }
+
+  .user {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .card-fixed-height {
+    height: 430px !important;
+    overflow: hidden;
+  }
+  .card-p2 {
+    padding-left: 10px !important;
+  }
